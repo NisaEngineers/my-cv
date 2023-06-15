@@ -107,7 +107,7 @@ st.write("🚧", "**Python and Artificial Intelligence Developer | Upwork**")
 st.write("02/2021 - Present")
 st.write(
     """
-- ► Top Rated and !00% Job Succes Rate
+- ► Top Rated and 100% Job Succes Rate
 - ► The projects are from almost all field of AI and Data Science - natural language processing, computer vision, chatbot, trading bot, embedded robotics, etc
 - ► Created Cutom and Improve Existing Model
 """
