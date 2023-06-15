@@ -31,7 +31,7 @@ PROJECTS = {
     "🏆 Bengali Folklore and NLP": "https://arxiv.org/abs/2203.06607",
     "🏆 Audio processing with AI, Cloning Voice, Style Transfer, Music Generation": "https://github.com/NisaEngineers/RudiPRO_Drummer_Web",
     "🏆 Re-enhanced and fully restore the image with AI": "",
-    "🏆 And Many More ....": "
+    "🏆 And Many More ....": " "
 }
 
 
