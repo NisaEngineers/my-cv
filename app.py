@@ -75,7 +75,7 @@ st.write('\n')
 st.subheader("Experience & Qulifications")
 st.write(
     """
-- ✔️ 3+ Years expereince as a Data Scientist and AI developer
+- ✔️ 5+ Years expereince as a Data Scientist and AI developer
 - ✔️ Strong hands on experience and knowledge in Computer Vision and Natural Language Processing
 - ✔️ Good understanding of core programming, embedded computing and digital systems
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
@@ -116,7 +116,7 @@ st.write(
 # --- JOB 2
 st.write('\n')
 st.write("🚧", "**AI and Bot Developer, C++ and Python | Fiverr**")
-st.write("01/2018 - 02/2022")
+st.write("01/2017 - 02/2022")
 st.write(
     """
 - ► Leve 2 Seller
