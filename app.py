@@ -26,12 +26,12 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/jamankhan1310/",
 }
 PROJECTS = {
-    "🏆 Camoflouged Object Detection and Re Camo ": "https://github.com/DengPingFan/SINet/",
-    "🏆 Autonomous Multipurpose Weapon System - Advance Computer Vision, Decision Model and Robotics (confidential)": "https://www.researchgate.net/profile/Mohammad-Khan-270",
-    "🏆 Bengali Folklore and NLP": "https://arxiv.org/abs/2203.06607",
-    "🏆 Audio processing with AI, Cloning Voice, Style Transfer, Music Generation": "https://github.com/NisaEngineers/RudiPRO_Drummer_Web",
-    "🏆 Re-enhanced and fully restore the image with AI": "",
-    "🏆 And Many More ....": " "
+    " Camoflouged Object Detection and Re Camo ": "https://github.com/DengPingFan/SINet/",
+    "Autonomous Multipurpose Weapon System - Advance Computer Vision, Decision Model and Robotics (confidential)": "https://www.researchgate.net/profile/Mohammad-Khan-270",
+    "Bengali Folklore and NLP": "https://arxiv.org/abs/2203.06607",
+    "Audio processing with AI, Cloning Voice, Style Transfer, Music Generation": "https://github.com/NisaEngineers/RudiPRO_Drummer_Web",
+    "Re-enhanced and fully restore the image with AI": "",
+    "And Many More ....": " "
 }
 
 
