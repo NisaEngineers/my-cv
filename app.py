@@ -142,5 +142,13 @@ st.write(
 st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
-for project, link in PROJECTS.items():
-    st.write(f"[{project}]({link})")
+projects = [" Camoflouged Object Detection and Re Camo "
+            "Autonomous Multipurpose Weapon System - Advance Computer Vision, Decision Model and Robotics (confidential)",
+            "Bengali Folklore and NLP", 
+            "Audio processing with AI, Cloning Voice, Style Transfer, Music Generation",
+            "Re-enhanced and fully restore the image with AI",
+             "And Many More ...."]
+links = [ "https://github.com/DengPingFan/SINet/","https://www.researchgate.net/profile/Mohammad-Khan-270", "https://arxiv.org/abs/2203.06607","https://github.com/NisaEngineers/RudiPRO_Drummer_Web","",""]
+for project, link in zip(projects, links):
+    st.write(project)
+    st.write(link)
