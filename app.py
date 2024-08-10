@@ -74,10 +74,10 @@ st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    logo = Image.open(LOGOS[platform])
-    logo = logo.resize((50, 50))  # Ensure all logos are the same dimension
+    #logo = Image.open(LOGOS[platform])
+    #logo = logo.resize((50, 50))  # Ensure all logos are the same dimension
     #cols[index].image(logo)
-    cols[index].markdown(f"{platform} {link}")
+    cols[index].markdown(f"{platform}")
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
