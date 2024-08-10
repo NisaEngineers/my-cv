@@ -210,6 +210,57 @@ st.write(
 """
 )
 
+# --- Certifications ---
+st.write('\n')
+st.subheader("Certifications")
+st.write("---")
+certifications = [
+    {
+        "title": "IBM Applied DevOps Engineering Professional Certificate",
+        "issuer": "IBM",
+        "location": "Remote",
+        "start_date": "October 2, 2023",
+        "end_date": "May 8, 2024"
+    },
+    {
+        "title": "IBM AI Engineering Professional Certificate",
+        "issuer": "IBM",
+        "location": "Remote",
+        "start_date": "June 4, 2023",
+        "end_date": "June 8, 2024"
+    },
+    {
+        "title": "Google IT Support Professional Certificate",
+        "issuer": "Google",
+        "location": "Remote",
+        "start_date": "July 18, 2023",
+        "end_date": "June 8, 2024"
+    },
+    {
+        "title": "DeepLearning.AI TensorFlow Developer Professional Certificate",
+        "issuer": "Deeplearning.AI",
+        "location": "Remote",
+        "start_date": "March 12, 2020",
+        "end_date": "July 27, 2021"
+    },
+    {
+        "title": "Google IT Automation with Python Professional Certificate",
+        "issuer": "Google",
+        "location": "Remote",
+        "start_date": "February 10, 2020",
+        "end_date": "September 25, 2020"
+    }
+]
+
+for cert in certifications:
+    st.write(f"**{cert['title']}**")
+    st.write(f"*Issuer:* {cert['issuer']}")
+    st.write(f"*Location:* {cert['location']}")
+    st.write(f"*Start Date:* {cert['start_date']}")
+    st.write(f"*End Date:* {cert['end_date']}")
+    st.write("---")
+
+
 
 # --- Projects & Accomplishments ---
 st.write('\n')
