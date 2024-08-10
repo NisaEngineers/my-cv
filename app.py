@@ -17,7 +17,7 @@ PAGE_ICON = ":wave:"
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 NAME = "Mohammad Nur Uj Jaman Khan"
 DESCRIPTION = """
-**Full Stack, Data Scientist, Artificial Intelligence Researcher**.
+**Full Stack, Data Scientist & Artificial Intelligence Researcher**.
 """
 EMAIL = "tutorials.jaman@gmail.com"
 SOCIAL_MEDIA = {
