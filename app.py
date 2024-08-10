@@ -160,5 +160,3 @@ links = [
 ]
 for project, link in zip(projects, links):
     st.write(f"{project}")
-    st.write(f"{link}")
-    
