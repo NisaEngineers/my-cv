@@ -26,7 +26,7 @@ SOCIAL_MEDIA = {
     "LinkedIn": "https://www.linkedin.com/in/jamankhan1310/",
 }
 PROJECTS = {
-    " Camoflouged Object Detection and Re Camo ": "https://github.com/DengPingFan/SINet/",
+    "Camouflaged Object Detection and Re Camo": "https://github.com/DengPingFan/SINet/",
     "Autonomous Multipurpose Weapon System - Advance Computer Vision, Decision Model and Robotics (confidential)": "https://www.researchgate.net/profile/Mohammad-Khan-270",
     "Bengali Folklore and NLP": "https://arxiv.org/abs/2203.06607",
     "Audio processing with AI, Cloning Voice, Style Transfer, Music Generation": "https://github.com/NisaEngineers/RudiPRO_Drummer_Web",
@@ -38,7 +38,7 @@ PROJECTS = {
 st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 
-# --- LOAD CSS, PDF & PROFIL PIC ---
+# --- LOAD CSS, PDF & PROFILE PIC ---
 with open(css_file) as f:
     st.markdown("<style>{}</style>".format(f.read()), unsafe_allow_html=True)
 with open(resume_file, "rb") as pdf_file:
@@ -67,19 +67,19 @@ with col2:
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"[{platform}]({link})")
+    cols[index].write(f"{platform}")
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
 st.write('\n')
-st.subheader("Experience & Qulifications")
+st.subheader("Experience & Qualifications")
 st.write(
     """
-- ✔️ 5+ Years expereince as a Data Scientist and AI developer
-- ✔️ Strong hands on experience and knowledge in Computer Vision and Natural Language Processing
-- ✔️ Good understanding of core programming, embedded computing and digital systems
+- ✔️ 5+ Years experience as a Data Scientist and AI developer
+- ✔️ Strong hands-on experience and knowledge in Computer Vision and Natural Language Processing
+- ✔️ Good understanding of core programming, embedded computing, and digital systems
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
-- ✔️ Very fast learner and ability to handle multi tasking
+- ✔️ Very fast learner and ability to handle multi-tasking
 """
 )
 
@@ -89,10 +89,10 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: Python, javascript, C++, C#
-- 📊 Data Science Tools: Plotly, Matplotlib, Pandas, OpenCV, Pillow, SeaBorn & More
-- 📚 Model Generation: TensorFlow, PyTorch, Transformers,  Scikit Learn, Keras 
-- 🗄️ Others Major Working Area: Web , Desktop and Mobile App devolopment (Django, Flask, Electron, PyQT5, Flutter, Kivy and More)
+- 👩‍💻 Programming: Python, JavaScript, C++, C#
+- 📊 Data Science Tools: Plotly, Matplotlib, Pandas, OpenCV, Pillow, Seaborn & More
+- 📚 Model Generation: TensorFlow, PyTorch, Transformers, Scikit-Learn, Keras 
+- 🗄️ Other Major Working Areas: Web, Desktop, and Mobile App development (Django, Flask, Electron, PyQT5, Flutter, Kivy, and More)
 """
 )
 
@@ -107,9 +107,9 @@ st.write("🚧", "**Python and Artificial Intelligence Developer | Upwork**")
 st.write("02/2021 - Present")
 st.write(
     """
-- ► Top Rated and 100% Job Succes Rate
-- ► The projects are from almost all field of AI and Data Science - natural language processing, computer vision, chatbot, trading bot, embedded robotics, etc
-- ► Created Cutom and Improve Existing Model
+- ► Top Rated and 100% Job Success Rate
+- ► The projects are from almost all fields of AI and Data Science - natural language processing, computer vision, chatbot, trading bot, embedded robotics, etc.
+- ► Created Custom and Improved Existing Models
 """
 )
 
@@ -119,9 +119,9 @@ st.write("🚧", "**AI and Bot Developer, C++ and Python | Fiverr**")
 st.write("01/2017 - 02/2022")
 st.write(
     """
-- ► Leve 2 Seller
-- ► Made various bot for customer specification, simulation software for mechanical properties and solved many projects with C++ and python
-- ► Scientific Computing and large project on computer vision has been done here
+- ► Level 2 Seller
+- ► Made various bots for customer specifications, simulation software for mechanical properties, and solved many projects with C++ and Python
+- ► Scientific Computing and large projects on computer vision have been done here
 """
 )
 
@@ -131,9 +131,9 @@ st.write("🚧", "**Data Scientist and AI Engineering | Freelancers**")
 st.write("01/2023 - present")
 st.write(
     """
-- ► Used federate learning on sensors based data and prediction
-- ► Currently doing a large project on gpt-3.5-turbo, langchain, vector database (pinecone, chromadb and faiss) and other API integrated own dataset custom bot
-- ► Overall 5 star Rating
+- ► Used federated learning on sensors-based data and prediction
+- ► Currently doing a large project on GPT-3.5-turbo, LangChain, vector database (Pinecone, ChromaDB, and FAISS), and other API integrated own dataset custom bot
+- ► Overall 5-star Rating
 """
 )
 
@@ -142,13 +142,23 @@ st.write(
 st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
-projects = [" Camoflouged Object Detection and Re Camo "
-            "Autonomous Multipurpose Weapon System - Advance Computer Vision, Decision Model and Robotics (confidential)",
-            "Bengali Folklore and NLP", 
-            "Audio processing with AI, Cloning Voice, Style Transfer, Music Generation",
-            "Re-enhanced and fully restore the image with AI",
-             "And Many More ...."]
-links = [ "https://github.com/DengPingFan/SINet/","https://www.researchgate.net/profile/Mohammad-Khan-270", "https://arxiv.org/abs/2203.06607","https://github.com/NisaEngineers/RudiPRO_Drummer_Web","",""]
+projects = [
+    "Camouflaged Object Detection and Re Camo",
+    "Autonomous Multipurpose Weapon System - Advance Computer Vision, Decision Model and Robotics (confidential)",
+    "Bengali Folklore and NLP", 
+    "Audio processing with AI, Cloning Voice, Style Transfer, Music Generation",
+    "Re-enhanced and fully restore the image with AI",
+    "And Many More ...."
+]
+links = [
+    "https://github.com/DengPingFan/SINet/",
+    "https://www.researchgate.net/profile/Mohammad-Khan-270",
+    "https://arxiv.org/abs/2203.06607",
+    "https://github.com/NisaEngineers/RudiPRO_Drummer_Web",
+    "",
+    ""
+]
 for project, link in zip(projects, links):
-    st.write(project)
-    st.write(link)
+    st.write(f"{project}")
+    st.write(f"{link}")
+    
