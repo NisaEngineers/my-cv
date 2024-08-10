@@ -34,6 +34,14 @@ PROJECTS = {
     "Re-enhanced and fully restore the image with AI": "",
     "And Many More ....": " "
 }
+# --- SOCIAL MEDIA LOGOS ---
+LOGOS = {
+    "Upwork": "upwork.png",
+    "Fiverr": "Fiverr_Logo.png",
+    "Freelancers": "Freelancer_logo.png",
+    "LinkedIn": "path_to_linkedin_logo.png",
+}
+
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
@@ -64,8 +72,12 @@ with col2:
 # --- SOCIAL LINKS ---
 st.write('\n')
 cols = st.columns(len(SOCIAL_MEDIA))
+
 for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
-    cols[index].write(f"{platform}")
+    logo = Image.open(LOGOS[platform])
+    logo = logo.resize((50, 50))  # Ensure all logos are the same dimension
+    cols[index].image(logo)
+    cols[index].markdown(f"{platform}")
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
