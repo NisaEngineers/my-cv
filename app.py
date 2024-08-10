@@ -14,6 +14,7 @@ profile_pic = "new.jpeg"
 # --- GENERAL SETTINGS ---
 PAGE_TITLE = "Web Resume | M Nur Uj Jaman Khan"
 PAGE_ICON = ":wave:"
+st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 NAME = "Mohammad Nur Uj Jaman Khan"
 DESCRIPTION = """
 Senior Data Scientist, Artificial Intelligence and Computer Vision Researcher.
@@ -33,9 +34,6 @@ PROJECTS = {
     "Re-enhanced and fully restore the image with AI": "",
     "And Many More ....": " "
 }
-
-
-st.set_page_config(page_title=PAGE_TITLE, page_icon=PAGE_ICON)
 
 
 # --- LOAD CSS, PDF & PROFILE PIC ---
