@@ -39,7 +39,7 @@ LOGOS = {
     "Upwork": "upwork.png",
     "Fiverr": "Fiverr_Logo.png",
     "Freelancers": "Freelancer_logo.png",
-    "LinkedIn": "path_to_linkedin_logo.png",
+    "LinkedIn": "linkedin.png",
 }
 
 
