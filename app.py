@@ -66,7 +66,7 @@ with col2:
         file_name="CV.pdf",
         mime="application/octet-stream",
     )
-    st.write("📫", " tutorials.jaman@gmail.com")
+    st.write("📫 tutorials.jaman@gmail.com")
 
 
 # --- SOCIAL LINKS ---
