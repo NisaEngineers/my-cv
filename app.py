@@ -87,25 +87,17 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- 👩‍💻 Programming: C, C++, Python 3, JavaScript, PHP, MySQL, Java
-- 📊 Data Science Tools: TensorFlow, PyTorch, Scikit-Learn, Transformers, keras, NumPy, Pandas, Matplotlib, Plotly, Seaborn
-- 📚 Machine Learning Techniques: Machine Learning, Deep Learning, Reinforcement Learning, Active Learning
-- 🖼️ Computer Vision: Advanced image restoration, camouflage object detection, stable diffusion, YOLO8, StyleGAN3, DALLE-E3
-- 🗣️ NLP & LLM: Natural Language Processing, Text to Speech/Speech to Text, Voice Clone, Text to Image/Video
-- 🌐 Web Development: Flask, Django, Laravel
-- 🛠️ Development Environments: Visual Studio Code, Anaconda Environment and Jupyter Notebook.
+- **👩‍💻 Programming**: C, C++, Python 3, JavaScript, PHP, MySQL, Java
+- **📊 Data Science Tools**: TensorFlow, PyTorch, Scikit-Learn, Transformers, keras, NumPy, Pandas, Matplotlib, Plotly, Seaborn
+- **📚 Machine Learning Techniques**: Machine Learning, Deep Learning, Reinforcement Learning, Active Learning
+- **🖼️ Computer Vision**: Advanced image restoration, camouflage object detection, stable diffusion, YOLO8, StyleGAN3, DALLE-E3
+- **🗣️ NLP & LLM**: Natural Language Processing, Text to Speech/Speech to Text, Voice Clone, Text to Image/Video
+- **🌐 Web Development**: Flask, Django, Laravel
+- **🛠️ Development Environments**: Visual Studio Code, Anaconda Environment and Jupyter Notebook
 """
 )
 
-st.write(
-    """
-A dynamic and versatile technologist, I bring a strong foundation in C++ programming, Python 3, JavaScript, PHP, MySQL, and Java, demonstrating my comprehensive understanding of both front-end and back-end development. My proficiency in TensorFlow, PyTorch, and Scikit-Learn underscores my ability to leverage state-of-the-art tools for complex computational tasks. With expertise in Machine Learning, Deep Learning, and Reinforcement Learning, I am adept at designing and implementing sophisticated AI models.
 
-My skills in Computer Vision and NLP & LLM highlight my capability to enable machines to understand and interpret the visual world and human language. Furthermore, my knowledge in Text to Speech/Speech to Text, Voice Clone, and Text to Image/Video technologies showcases my ability to bridge the gap between human and machine interaction.
-
-This diverse skill set positions me as a valuable asset in any team aiming to push the boundaries of technological innovation. I am excited to bring my skills to new challenges and contribute to the future of technology.
-"""
-)
 
 
 
