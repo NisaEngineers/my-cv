@@ -70,14 +70,14 @@ with col2:
 
 
 # --- SOCIAL LINKS ---
-st.write('\n')
-cols = st.columns(len(SOCIAL_MEDIA))
+#st.write('\n')
+#cols = st.columns(len(SOCIAL_MEDIA))
 
-for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
+#for index, (platform, link) in enumerate(SOCIAL_MEDIA.items()):
     #logo = Image.open(LOGOS[platform])
     #logo = logo.resize((50, 50))  # Ensure all logos are the same dimension
     #cols[index].image(logo)
-    cols[index].markdown(f"{platform}")
+    #cols[index].markdown(f"{platform}")
 
 
 # --- EXPERIENCE & QUALIFICATIONS ---
@@ -112,32 +112,6 @@ st.write(
 
 
 
-
-# --- EXPERIENCE & QUALIFICATIONS ---
-st.write('\n')
-st.subheader("Experience & Qualifications")
-st.write(
-    """
-- ✔️ 5+ Years experience as a Data Scientist and AI developer
-- ✔️ Strong hands-on experience and knowledge in Computer Vision and Natural Language Processing
-- ✔️ Good understanding of core programming, embedded computing, and digital systems
-- ✔️ Excellent team-player and displaying strong sense of initiative on tasks
-- ✔️ Very fast learner and ability to handle multi-tasking
-"""
-)
-
-
-# --- SKILLS ---
-st.write('\n')
-st.subheader("Hard Skills")
-st.write(
-    """
-- 👩‍💻 Programming: Python, JavaScript, C++, C#
-- 📊 Data Science Tools: Plotly, Matplotlib, Pandas, OpenCV, Pillow, Seaborn & More
-- 📚 Model Generation: TensorFlow, PyTorch, Transformers, Scikit-Learn, Keras 
-- 🗄️ Other Major Working Areas: Web, Desktop, and Mobile App development (Django, Flask, Electron, PyQT5, Flutter, Kivy, and More)
-"""
-)
 
 
 # --- WORK HISTORY ---
@@ -186,7 +160,7 @@ st.write(
 # --- JOB 3
 st.write('\n')
 st.write("🚧", "**Computer Programmer | Fiverr**")
-st.write("22 Feb 2016 - Continuing")
+st.write("22 August 2016 - Continuing")
 st.write(
     """
 - ► Established and highly skilled Level 2 Seller on Fiverr, boasting a remarkable 5-star rating and a 10 out of 10 Success Rate. With 5.3 years of expertise in Data Analysis, Programming, and Web Development, I have delivered exceptional results across various domains.
