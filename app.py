@@ -216,13 +216,6 @@ st.subheader("Certifications")
 st.write("---")
 certifications = [
     {
-        "title": "IBM Applied DevOps Engineering Professional Certificate",
-        "issuer": "IBM",
-        "location": "Remote",
-        "start_date": "October 2, 2023",
-        "end_date": "May 8, 2024"
-    },
-    {
         "title": "IBM AI Engineering Professional Certificate",
         "issuer": "IBM",
         "location": "Remote",
@@ -249,7 +242,35 @@ certifications = [
         "location": "Remote",
         "start_date": "February 10, 2020",
         "end_date": "September 25, 2020"
-    }
+    },
+    {
+        "title": "IBM Applied DevOps Engineering Professional Certificate",
+        "issuer": "IBM",
+        "location": "Remote",
+        "start_date": "October 2, 2023",
+        "end_date": "Ongoing"
+    },
+    {
+        "title": "IBM Backend Javascript Developer Professional Certificate",
+        "issuer": "IBM",
+        "location": "Remote",
+        "start_date": "January 2, 2024",
+        "end_date": "Ongoing"
+    },
+    {
+        "title": "Meta Front End Developer Professional Certificate",
+        "issuer": "Meta",
+        "location": "Remote",
+        "start_date": "March, 2024",
+        "end_date": "Ongoing"
+    },
+    {
+        "title": "Google Cyber Security Professional Certificate",
+        "issuer": "IBM",
+        "location": "Remote",
+        "start_date": "October 2, 2023",
+        "end_date": "May 8, 2024"
+    },
 ]
 
 for cert in certifications:
