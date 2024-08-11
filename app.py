@@ -85,7 +85,8 @@ st.write('\n')
 st.subheader("Experience & Qualifications")
 st.write(
     """
-- ✔️ 5+ Years experience as a Data Scientist and AI developer
+- ✔️ 5+ Years experience as a Full Stack Developer
+- ✔️ 3+ Years experience as a Data Scientist and AI Developer
 - ✔️ Strong hands-on experience and knowledge in Computer Vision and Natural Language Processing
 - ✔️ Good understanding of core programming, embedded computing, and digital systems
 - ✔️ Excellent team-player and displaying strong sense of initiative on tasks
