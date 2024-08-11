@@ -7,7 +7,7 @@ from PIL import Image
 # --- PATH SETTINGS ---
 current_dir = Path(__file__).parent if "__file__" in locals() else Path.cwd()
 css_file = "main.css"
-resume_file = "assets/CV.pdf"
+resume_file = "assets/CV_1.pdf"
 profile_pic = "new.jpeg"
 
 
@@ -66,7 +66,6 @@ with col2:
         file_name="CV.pdf",
         mime="application/octet-stream",
     )
-    st.write("📫 tutorials.jaman@gmail.com")
 
 
 # --- SOCIAL LINKS ---
@@ -191,7 +190,7 @@ st.write(
 # --- JOB 3
 st.write('\n')
 st.write("🚧", "**Computer Programmer | Fiverr**")
-st.write("22 August 2016 - Continuing")
+st.write("22 August 2020 - Continuing")
 st.write(
     """
 - ► Established and highly skilled Level 2 Seller on Fiverr, boasting a remarkable 5-star rating and a 10 out of 10 Success Rate. With 5.3 years of expertise in Data Analysis, Programming, and Web Development, I have delivered exceptional results across various domains.
