@@ -110,6 +110,36 @@ st.write(
 """
 )
 
+# --- Education ---
+st.write('\n')
+st.subheader("Education")
+st.write("---")
+education = [
+    {
+        "degree": "Bachelor of Science in Engineering",
+        "major": "Computer Science and Engineering",
+        "institution": "Jashore University of Science and Technology",
+        "year": "2020"
+    },
+    {
+        "degree": "Graduation in Engineering",
+        "major": "Mechanical Engineering",
+        "institution": "Institute of Engineers Bangladesh",
+        "enrolled": "2023",
+        "expected_completion": "2027"
+    }
+]
+
+for edu in education:
+    st.write(f"**{edu['degree']}** in **{edu['major']}**")
+    st.write(f"*Institution:* {edu['institution']}")
+    if 'year' in edu:
+        st.write(f"*Year:* {edu['year']}")
+    if 'enrolled' in edu:
+        st.write(f"*Enrolled:* {edu['enrolled']}")
+    if 'expected_completion' in edu:
+        st.write(f"*Expected Completion:* {edu['expected_completion']}")
+    st.write("---")
 
 
 
