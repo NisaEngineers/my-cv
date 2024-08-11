@@ -100,12 +100,12 @@ st.write('\n')
 st.subheader("Hard Skills")
 st.write(
     """
-- **👩‍💻 Programming**: C, C++, Python 3, JavaScript, PHP, MySQL, Java
+- **👩‍💻 Programming**: C, C++, Python 3, JavaScript, PHP, MySQL
 - **📊 Data Science Tools**: TensorFlow, PyTorch, Scikit-Learn, Transformers, keras, NumPy, Pandas, Matplotlib, Plotly, Seaborn
 - **📚 Machine Learning Techniques**: Machine Learning, Deep Learning, Reinforcement Learning, Active Learning
 - **🖼️ Computer Vision**: Advanced image restoration, camouflage object detection, stable diffusion, YOLO8, StyleGAN3, DALLE-E3
-- **🗣️ NLP & LLM**: Natural Language Processing, Text to Speech/Speech to Text, Voice Clone, Text to Image/Video
-- **🌐 Web Development**: Flask, Django, Laravel
+- **🗣️ NLP & LLM**: Natural Language Processing, Text to Speech/Speech to Text, Voice Clone, Text to Image/Video, Domain Specific and Cross Domain Chatbot
+- **🌐 Desktop & Web Development**: QtCore, Tkinter, Flask, Django, Laravel
 - **🛠️ Development Environments**: Visual Studio Code, Anaconda Environment and Jupyter Notebook
 """
 )
@@ -289,12 +289,16 @@ st.write('\n')
 st.subheader("Projects & Accomplishments")
 st.write("---")
 projects = [
-    "Camouflaged Object Detection and Re Camo",
-    "Autonomous Multipurpose Weapon System - Advance Computer Vision, Decision Model and Robotics (confidential)",
-    "Bengali Folklore and NLP", 
+    "Camouflaged Object Detection, Identification and Tracking",
+    "Autonomous Multipurpose Weapon System: A Computational Military Approach (Advance Computer Vision, Decision Model and Robotics) ",
+    "A Systematic Study and Analysis of Bengali Folklore with Natural Language Processing Systems (Publication on pre print)", 
     "Audio processing with AI, Cloning Voice, Style Transfer, Music Generation",
     "Re-enhanced and fully restore the image with AI",
-    "And Many More ...."
+    "Near Human Like Chatbot by LLaMA 3 and RAG",
+    "Chat with PDF and Docs powered by GPT 4",
+    "Fitness Coach AI for Therapy/Excercise on Parralysis Patient",
+    "Symtomps Checker Webapp with Full ability to prescibe and ask for test",
+    "And Many more"
 ]
 links = [
     "https://github.com/DengPingFan/SINet/",
