@@ -300,13 +300,6 @@ projects = [
     "Symtomps Checker Webapp with Full ability to prescibe and ask for test",
     "And Many more"
 ]
-links = [
-    "https://github.com/DengPingFan/SINet/",
-    "https://www.researchgate.net/profile/Mohammad-Khan-270",
-    "https://arxiv.org/abs/2203.06607",
-    "https://github.com/NisaEngineers/RudiPRO_Drummer_Web",
-    "",
-    ""
-]
-for project, link in zip(projects, links):
+
+for project in projects:
     st.write(f"{project}")
